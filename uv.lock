@@ -968,46 +968,43 @@ name = "kse-bioinformatics-practicals"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "arviz" },
     { name = "dcor" },
     { name = "ipykernel" },
     { name = "jupyterlab" },
+    { name = "lifelines" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pygam" },
+    { name = "pymc" },
+    { name = "pysr" },
     { name = "scikit-learn" },
+    { name = "seaborn" },
     { name = "statsmodels" },
     { name = "ucimlrepo" },
     { name = "xlrd" },
 ]
 
-[package.optional-dependencies]
-regression-zoo = [
-    { name = "arviz" },
-    { name = "lifelines" },
-    { name = "pygam" },
-    { name = "pymc" },
-    { name = "pysr" },
-]
-
 [package.metadata]
 requires-dist = [
-    { name = "arviz", marker = "extra == 'regression-zoo'", specifier = ">=0.22" },
+    { name = "arviz", specifier = ">=0.22" },
     { name = "dcor", specifier = ">=0.7" },
     { name = "ipykernel", specifier = ">=6.29" },
     { name = "jupyterlab", specifier = ">=4.4" },
-    { name = "lifelines", marker = "extra == 'regression-zoo'", specifier = ">=0.30" },
+    { name = "lifelines", specifier = ">=0.30" },
     { name = "matplotlib", specifier = ">=3.9" },
     { name = "numpy", specifier = ">=2.0" },
     { name = "pandas", specifier = ">=2.2" },
-    { name = "pygam", marker = "extra == 'regression-zoo'", specifier = ">=0.9" },
-    { name = "pymc", marker = "extra == 'regression-zoo'", specifier = ">=5.25" },
-    { name = "pysr", marker = "extra == 'regression-zoo'", specifier = ">=1.5" },
+    { name = "pygam", specifier = ">=0.9" },
+    { name = "pymc", specifier = ">=5.25" },
+    { name = "pysr", specifier = ">=1.5" },
     { name = "scikit-learn", specifier = ">=1.5" },
+    { name = "seaborn", specifier = ">=0.13.2" },
     { name = "statsmodels", specifier = ">=0.14" },
     { name = "ucimlrepo", specifier = ">=0.0.7" },
     { name = "xlrd", specifier = ">=2.0.1" },
 ]
-provides-extras = ["regression-zoo"]
 
 [[package]]
 name = "lark"
@@ -1845,6 +1842,20 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/39/c1/1903de608c0c924a1749c590064e65810f8046e437aba6be365abc4f7557/scipy-1.16.3-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:deb3841c925eeddb6afc1e4e4a45e418d19ec7b87c5df177695224078e8ec733", size = 38878540, upload-time = "2025-10-28T17:32:23.907Z" },
     { url = "https://files.pythonhosted.org/packages/f1/d0/22ec7036ba0b0a35bccb7f25ab407382ed34af0b111475eb301c16f8a2e5/scipy-1.16.3-cp311-cp311-win_amd64.whl", hash = "sha256:53c3844d527213631e886621df5695d35e4f6a75f620dca412bcd292f6b87d78", size = 38722107, upload-time = "2025-10-28T17:32:29.921Z" },
     { url = "https://files.pythonhosted.org/packages/7b/60/8a00e5a524bb3bf8898db1650d350f50e6cffb9d7a491c561dc9826c7515/scipy-1.16.3-cp311-cp311-win_arm64.whl", hash = "sha256:9452781bd879b14b6f055b26643703551320aa8d79ae064a71df55c00286a184", size = 25506272, upload-time = "2025-10-28T17:32:34.577Z" },
+]
+
+[[package]]
+name = "seaborn"
+version = "0.13.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/86/59/a451d7420a77ab0b98f7affa3a1d78a313d2f7281a57afb1a34bae8ab412/seaborn-0.13.2.tar.gz", hash = "sha256:93e60a40988f4d65e9f4885df477e2fdaff6b73a9ded434c1ab356dd57eefff7", size = 1457696, upload-time = "2024-01-25T13:21:52.551Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl", hash = "sha256:636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987", size = 294914, upload-time = "2024-01-25T13:21:49.598Z" },
 ]
 
 [[package]]

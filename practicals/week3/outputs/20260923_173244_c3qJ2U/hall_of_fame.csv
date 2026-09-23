@@ -1,0 +1,9 @@
+Complexity,Loss,Equation
+1,10.533806,"9.9297285"
+3,7.4459805,"Shell_weight + 9.924111"
+5,6.364702,"Shell_weight + (10.037721 + Shell_weight)"
+7,6.357953,"(Shell_weight + (Shell_weight + 5.033435)) + 4.945526"
+8,5.969448,"(cos(Length) + 9.426051) + (Shell_weight + Shell_weight)"
+11,5.7939825,"((Shell_weight * 3.5795865) + 10.162752) + ((Shucked_weight * -2.7982802) + Shell_weight)"
+13,5.793889,"(Shucked_weight * -2.7980683) + (((Shell_weight + 10.1627445) + Shell_weight) + (Shell_weight * 2.5793867))"
+15,5.669349,"(Shell_weight + (10.037721 + ((-0.6161943 * Shucked_weight) + Shell_weight))) + ((-0.6161943 * Shucked_weight) + Shell_weight)"

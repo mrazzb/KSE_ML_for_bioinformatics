@@ -16,13 +16,10 @@ dependencies = [
     "statsmodels>=0.14",
     "ucimlrepo>=0.0.7",
     "xlrd>=2.0.1",
-]
-
-[project.optional-dependencies]
-regression-zoo = [
     "arviz>=0.22",
     "lifelines>=0.30",
     "pymc>=5.25",
     "pygam>=0.9",
     "pysr>=1.5",
+    "seaborn>=0.13.2",
 ]

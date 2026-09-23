@@ -1,0 +1,6 @@
+Complexity,Loss,Equation
+1,10.53346,"9.9609375"
+3,7.4452753,"Shell_weight + 9.94741"
+5,6.4774766,"(Shell_weight + 10.297771) + Shell_weight"
+7,6.368011,"((Shell_weight + 10.297771) - 0.45099503) + Shell_weight"
+10,5.894544,"sin(Shucked_weight + -10.812938) + ((Shell_weight + Shell_weight) + 9.284429)"

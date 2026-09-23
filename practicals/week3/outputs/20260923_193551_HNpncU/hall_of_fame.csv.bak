@@ -1,0 +1,5 @@
+Complexity,Loss,Equation
+1,10.533807,"9.929736"
+3,7.797829,"Diameter + 9.992381"
+5,6.9193377,"(Height + 10.12046) + Diameter"
+7,6.8978415,"(Diameter + -0.20669562) + (Height + 10.242752)"
