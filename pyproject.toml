@@ -22,4 +22,5 @@ dependencies = [
     "pygam>=0.9",
     "pysr>=1.5",
     "seaborn>=0.13.2",
+    "umap-learn>=0.5.7",
 ]
