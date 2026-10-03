@@ -6,10 +6,15 @@ requires-python = ">=3.11,<3.12"
 dependencies = [
     "dcor>=0.7",
     "ipykernel>=6.29",
+    "ipympl>=0.9.6",
     "jupyterlab>=4.4",
+    "lightgbm>=4.7.0",
     "matplotlib>=3.9",
     "numpy>=2.0",
+    "optuna>=5.0.0",
     "pandas>=2.2",
+    "plotly>=6.0",
+    "pubchempy>=1.0.5",
     "scikit-learn>=1.5",
     "xlrd>=2.0.1",
     "dcor>=0.7",
@@ -23,4 +28,5 @@ dependencies = [
     "pysr>=1.5",
     "seaborn>=0.13.2",
     "umap-learn>=0.5.7",
+    "xgboost>=3.2.0",
 ]
