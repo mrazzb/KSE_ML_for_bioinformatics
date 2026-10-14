@@ -9,6 +9,7 @@ dependencies = [
     "ipympl>=0.9.6",
     "jupyterlab>=4.4",
     "lightgbm>=4.7.0",
+    "mlflow>=3.0,<4.0",
     "matplotlib>=3.9",
     "numpy>=2.0",
     "optuna>=5.0.0",

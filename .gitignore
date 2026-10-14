@@ -3,3 +3,9 @@
 __pycache__/
 graphify-out/
 .ipynb_checkpoints/
+
+# Local MLflow tracking state and artifacts
+mlruns/
+mlartifacts/
+week6/mlflow.db
+week6/mlartifacts/
