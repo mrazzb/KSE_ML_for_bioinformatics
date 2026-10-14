@@ -1,0 +1,5 @@
+model,split,MAE,MSE,RMSE,R2
+Simple (bmi),train,51.38,3854.113,62.082,0.366
+Simple (bmi),test,52.26,4061.826,63.732,0.233
+Multiple (all 10),train,43.484,2868.55,53.559,0.528
+Multiple (all 10),test,42.794,2900.194,53.853,0.453
