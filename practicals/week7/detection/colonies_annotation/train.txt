@@ -1,0 +1,141 @@
+data/obj_train_data/10 open.jpg
+data/obj_train_data/11 open.jpg
+data/obj_train_data/12 open.jpg
+data/obj_train_data/13 open.jpg
+data/obj_train_data/14 open.jpg
+data/obj_train_data/15 open.jpg
+data/obj_train_data/16 open.jpg
+data/obj_train_data/17 open.jpg
+data/obj_train_data/18 open.jpg
+data/obj_train_data/19 open.jpg
+data/obj_train_data/20 open.jpg
+data/obj_train_data/21 open.jpg
+data/obj_train_data/28 open.jpg
+data/obj_train_data/29 open.jpg
+data/obj_train_data/30 open.jpg
+data/obj_train_data/31 open.jpg
+data/obj_train_data/32 open.jpg
+data/obj_train_data/33 open.jpg
+data/obj_train_data/34 open.jpg
+data/obj_train_data/35 open.jpg
+data/obj_train_data/36 open.jpg
+data/obj_train_data/37 open.jpg
+data/obj_train_data/38 open.jpg
+data/obj_train_data/39 open.jpg
+data/obj_train_data/4 open.jpg
+data/obj_train_data/40 open.jpg
+data/obj_train_data/41 open.jpg
+data/obj_train_data/42 open.jpg
+data/obj_train_data/5 open.jpg
+data/obj_train_data/6 open.jpg
+data/obj_train_data/601.jpg
+data/obj_train_data/602.jpg
+data/obj_train_data/603.jpg
+data/obj_train_data/604.jpg
+data/obj_train_data/605.jpg
+data/obj_train_data/606.jpg
+data/obj_train_data/607.jpg
+data/obj_train_data/608.jpg
+data/obj_train_data/609.jpg
+data/obj_train_data/610.jpg
+data/obj_train_data/611.jpg
+data/obj_train_data/612.jpg
+data/obj_train_data/627.jpg
+data/obj_train_data/628.jpg
+data/obj_train_data/7 open.jpg
+data/obj_train_data/701.jpg
+data/obj_train_data/702.jpg
+data/obj_train_data/703.jpg
+data/obj_train_data/704.jpg
+data/obj_train_data/705.jpg
+data/obj_train_data/706.jpg
+data/obj_train_data/707.jpg
+data/obj_train_data/708.jpg
+data/obj_train_data/709.jpg
+data/obj_train_data/710.jpg
+data/obj_train_data/711.jpg
+data/obj_train_data/712.jpg
+data/obj_train_data/713.jpg
+data/obj_train_data/714.jpg
+data/obj_train_data/715.jpg
+data/obj_train_data/716.jpg
+data/obj_train_data/718.jpg
+data/obj_train_data/719.jpg
+data/obj_train_data/721.jpg
+data/obj_train_data/722.jpg
+data/obj_train_data/723.jpg
+data/obj_train_data/727.jpg
+data/obj_train_data/728.jpg
+data/obj_train_data/738.jpg
+data/obj_train_data/739.jpg
+data/obj_train_data/741.jpg
+data/obj_train_data/742.jpg
+data/obj_train_data/744.jpg
+data/obj_train_data/762.jpg
+data/obj_train_data/763.jpg
+data/obj_train_data/765.jpg
+data/obj_train_data/767.jpg
+data/obj_train_data/768.jpg
+data/obj_train_data/769.jpg
+data/obj_train_data/770.jpg
+data/obj_train_data/771.jpg
+data/obj_train_data/772.jpg
+data/obj_train_data/774.jpg
+data/obj_train_data/775.jpg
+data/obj_train_data/776.jpg
+data/obj_train_data/E c 1 RAW.png
+data/obj_train_data/E c 2 RAW.png
+data/obj_train_data/Faecalis 9 RAW.png
+data/obj_train_data/Kleb 1 RAW.png
+data/obj_train_data/Kleb 2 RAW.png
+data/obj_train_data/Kleb 3 RAW.png
+data/obj_train_data/Kleb 4 RAW.png
+data/obj_train_data/Kleb 5 RAW.png
+data/obj_train_data/Kleb 6 RAW.png
+data/obj_train_data/Legionella 1 Raw Pic.png
+data/obj_train_data/Legionella 2 Raw Pic.png
+data/obj_train_data/Legionella 3 Raw Pic.png
+data/obj_train_data/MRSA 1 RAW.png
+data/obj_train_data/MRSA 2 Raw.png
+data/obj_train_data/Mis spiralled Staph RAW(1).png
+data/obj_train_data/Mis spiralled Staph RAW.png
+data/obj_train_data/Mixed yeast 1a.jpg
+data/obj_train_data/P v 1 Raw.png
+data/obj_train_data/Ps a 1 Raw.png
+data/obj_train_data/Ps a 2 RAW.png
+data/obj_train_data/Ps a 2 total count Raw.png
+data/obj_train_data/Ps a total count RAW.png
+data/obj_train_data/Ps fluorescenes c.jpg
+data/obj_train_data/Ps fluorescens a.jpg
+data/obj_train_data/Ps fluorescens d.jpg
+data/obj_train_data/Ps fluorescense b.jpg
+data/obj_train_data/R mucilaginosa.jpg
+data/obj_train_data/S a 1 Raw.png
+data/obj_train_data/S a 2 Raw.png
+data/obj_train_data/S a 3 Raw.png
+data/obj_train_data/S a 4 Raw.png
+data/obj_train_data/S aureus 10E4 T16.jpg
+data/obj_train_data/S aureus 10E4.jpg
+data/obj_train_data/Staph 1 Raw.png
+data/obj_train_data/Staph 1 total count RAW.png
+data/obj_train_data/Staph 10 RAW.png
+data/obj_train_data/Staph 2 Raw.png
+data/obj_train_data/Staph 3 RAW.png
+data/obj_train_data/Staph 4 RAW.png
+data/obj_train_data/Staph 5 RAW.png
+data/obj_train_data/Staph 6 RAW.png
+data/obj_train_data/Staph 7 RAW.png
+data/obj_train_data/Staph 8 RAW.png
+data/obj_train_data/Staph 9 RAW.png
+data/obj_train_data/Staph Total count RAW.png
+data/obj_train_data/e coli 1.jpg
+data/obj_train_data/e coli 2.jpg
+data/obj_train_data/mixed bacteria 1a.jpg
+data/obj_train_data/mixed bacteria 1b.jpg
+data/obj_train_data/mixed yeast 1b.jpg
+data/obj_train_data/mixed yeast 1c.jpg
+data/obj_train_data/mixed yeast 1d.jpg
+data/obj_train_data/staph 1.jpg
+data/obj_train_data/staph 2.jpg
+data/obj_train_data/test open.jpg
+data/obj_train_data/yeast .jpg

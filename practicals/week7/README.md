@@ -6,4 +6,6 @@ The full detection training annotations and trained model weights are intentiona
 
 The notebook can still be read and executed through the inspection and demonstration sections. Training a detector requires placing the private labelled dataset under `detection/colonies_annotation` locally. Model files are also expected to remain local and are ignored by Git.
 
+After a trained YOLO model and the local `detection/test` images are available, the notebook can create `cvat_model_assisted_yolo.zip`. This archive contains YOLO 1.1 label files and class metadata, but not model weights. In CVAT, create a task with the same test images, choose **Upload annotations → YOLO 1.1**, upload the ZIP, and review/correct every predicted box before using the annotations for training.
+
 The 3D examples are multi-page 16-bit TIFF volumes. The notebook discovers all TIFF volumes under `3d`, provides a static preview, and opens Napari only when `RUN_NAPARI_VIEWER = True`. VGG13D embedding extraction is opt-in through `RUN_3D_EMBEDDINGS = True` and `RUN_EXPENSIVE = True`.

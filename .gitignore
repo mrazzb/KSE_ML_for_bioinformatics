@@ -15,6 +15,8 @@ week6/mlartifacts/
 /practicals/week7/**/*.pt
 /practicals/week7/**/runs/
 /practicals/week7/**/*.cache
+/practicals/week7/cvat_model_assisted_yolo/
+/practicals/week7/cvat_model_assisted_yolo.zip
 
 # Keep only the deliberately selected public YOLO annotation example
 /practicals/week7/detection/colonies_annotation/obj_train_data/*
