@@ -5,6 +5,7 @@ description = "Reusable environment for the KSE bioinformatics machine-learning 
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "dcor>=0.7",
+    "gradio>=5.0,<7.0",
     "ipykernel>=6.29",
     "ipympl>=0.9.6",
     "jupyterlab>=4.4",
@@ -17,28 +18,42 @@ dependencies = [
     "plotly>=6.0",
     "pubchempy>=1.0.5",
     "scikit-learn>=1.5",
-    "xlrd>=2.0.1",
-    "dcor>=0.7",
     "statsmodels>=0.14",
-    "ucimlrepo>=0.0.7",
-    "xlrd>=2.0.1",
-    "arviz>=0.22",
-    "lifelines>=0.30",
-    "pymc>=5.25",
-    "pygam>=0.9",
-    "pysr>=1.5",
     "seaborn>=0.13.2",
     "torchview>=0.2.6",
-    "umap-learn>=0.5.7",
+    "ucimlrepo>=0.0.7",
+    "umap-learn>=0.5.6",
     "xgboost>=3.2.0",
+    "xlrd>=2.0.1",
+    "tensorflow>=2.21.0",
+    "graphviz>=0.21",
+    "kagglehub>=1.0.2",
+    "ultralytics>=8.4.182",
+    "cellpose>=4.2.1.1",
+    "tifffile>=2026.3.3",
+    "napari[all]>=0.9.2",
 ]
 
 [project.optional-dependencies]
 cpu = [
     "torch>=2.11.0,<2.12",
+    "torchvision>=0.26.0,<0.27",
 ]
 cu128 = [
     "torch>=2.11.0,<2.12",
+    "torchvision>=0.26.0,<0.27",
+]
+regression-zoo = [
+    "arviz>=0.22",
+    "lifelines>=0.30",
+    "pymc>=5.25",
+    "pygam>=0.9",
+    "pysr>=1.5",
+]
+# MARS/PyEarth requires a native C/C++ build on Windows because a compatible
+# wheel is not available. Install this extra only after installing MSVC Build Tools.
+mars = [
+    "sklearn-contrib-py-earth>=0.1.0",
 ]
 
 [tool.uv]
@@ -51,6 +66,10 @@ conflicts = [
 
 [tool.uv.sources]
 torch = [
+    { index = "pytorch-cpu", extra = "cpu" },
+    { index = "pytorch-cu128", extra = "cu128" },
+]
+torchvision = [
     { index = "pytorch-cpu", extra = "cpu" },
     { index = "pytorch-cu128", extra = "cu128" },
 ]

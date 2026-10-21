@@ -9,3 +9,14 @@ mlruns/
 mlartifacts/
 week6/mlflow.db
 week6/mlartifacts/
+
+# Week 7 local training outputs and model weights
+/practicals/week7/*.pt
+/practicals/week7/**/*.pt
+/practicals/week7/**/runs/
+/practicals/week7/**/*.cache
+
+# Keep only the deliberately selected public YOLO annotation example
+/practicals/week7/detection/colonies_annotation/obj_train_data/*
+!/practicals/week7/detection/colonies_annotation/obj_train_data/604.jpg
+!/practicals/week7/detection/colonies_annotation/obj_train_data/604.txt
