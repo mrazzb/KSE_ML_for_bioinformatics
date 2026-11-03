@@ -9,6 +9,7 @@ mlruns/
 mlartifacts/
 week6/mlflow.db
 week6/mlartifacts/
+esp32_camera_capture/
 
 # Week 7 local training outputs and model weights
 /practicals/week7/*.pt
