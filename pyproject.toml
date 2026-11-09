@@ -20,12 +20,11 @@ dependencies = [
     "scikit-learn>=1.5",
     "statsmodels>=0.14",
     "seaborn>=0.13.2",
-    "torchview>=0.2.6",
     "torch-geometric>=2.7.0",
     "transformers>=4.50",
     "accelerate>=1.0",
     "ucimlrepo>=0.0.7",
-    "umap-learn>=0.5.6",
+    "umap-learn>=0.5.7",
     "xgboost>=3.2.0",
     "xlrd>=2.0.1",
     "tensorflow>=2.21.0",
@@ -36,53 +35,3 @@ dependencies = [
     "tifffile>=2026.3.3",
     "napari[all]>=0.9.2",
 ]
-
-[project.optional-dependencies]
-cpu = [
-    "torch>=2.11.0,<2.12",
-    "torchvision>=0.26.0,<0.27",
-]
-cu128 = [
-    "torch>=2.11.0,<2.12",
-    "torchvision>=0.26.0,<0.27",
-]
-regression-zoo = [
-    "arviz>=0.22",
-    "lifelines>=0.30",
-    "pymc>=5.25",
-    "pygam>=0.9",
-    "pysr>=1.5",
-]
-# MARS/PyEarth requires a native C/C++ build on Windows because a compatible
-# wheel is not available. Install this extra only after installing MSVC Build Tools.
-mars = [
-    "sklearn-contrib-py-earth>=0.1.0",
-]
-
-[tool.uv]
-conflicts = [
-    [
-        { extra = "cpu" },
-        { extra = "cu128" },
-    ],
-]
-
-[tool.uv.sources]
-torch = [
-    { index = "pytorch-cpu", extra = "cpu" },
-    { index = "pytorch-cu128", extra = "cu128" },
-]
-torchvision = [
-    { index = "pytorch-cpu", extra = "cpu" },
-    { index = "pytorch-cu128", extra = "cu128" },
-]
-
-[[tool.uv.index]]
-name = "pytorch-cpu"
-url = "https://download.pytorch.org/whl/cpu"
-explicit = true
-
-[[tool.uv.index]]
-name = "pytorch-cu128"
-url = "https://download.pytorch.org/whl/cu128"
-explicit = true
