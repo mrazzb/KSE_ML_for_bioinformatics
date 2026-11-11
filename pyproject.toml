@@ -53,6 +53,12 @@ regression-zoo = [
     "pygam>=0.9",
     "pysr>=1.5",
 ]
+# Optional because it downloads a large foundation-model package and model
+# weights on first use. The notebook uses the latest available TabPFN-3.5
+# checkpoint when this extra is installed.
+tabpfn = [
+    "tabpfn>=9.2.0,<10",
+]
 # MARS/PyEarth requires a native C/C++ build on Windows because a compatible
 # wheel is not available. Install this extra only after installing MSVC Build Tools.
 mars = [
